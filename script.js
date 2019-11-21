@@ -34,6 +34,7 @@ function toggleItem(item){
 
 let itemCount=0
 let uncheckedCount=0
+
 function newTodo() {
   let item = prompt("Enter a new todo item ")
   if(item==null) return;
